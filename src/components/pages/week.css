@@ -1,0 +1,41 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.w-container {
+    width:1280px;
+    margin:auto;
+}
+.title {
+    font-size: 3.5rem;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lunch, .dinner{
+    margin-bottom: 100px;
+}
+.time {
+    padding:10px;
+    text-align: center;
+}
+.lunch-menu, .dinner-menu {
+    border: 1px solid black;
+    width:100%;
+    display:flex;
+}
+.menu-box {
+    width:256px;
+    border: 1px dashed black;
+}
+.date {
+    background:skyblue;
+    padding:3px 0;
+    text-align: center;
+}
+.menu {
+    list-style: none;
+    text-align: center;
+}
